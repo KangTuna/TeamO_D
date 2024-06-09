@@ -54,7 +54,7 @@ namespace SojaExiles
 		IEnumerator opening()
 		{
 			print("you are opening the door");
-			openandclose.Play("Opening");
+			openandclose.Play("Opening_left");
 			open = true;
 			yield return new WaitForSeconds(.5f);
 		}
@@ -62,7 +62,7 @@ namespace SojaExiles
 		IEnumerator closing()
 		{
 			print("you are closing the door");
-			openandclose.Play("Closing");
+			openandclose.Play("Closing_left");
 			open = false;
 			yield return new WaitForSeconds(.5f);
 		}

@@ -7023,7 +7023,7 @@ GameObject:
   - component: {fileID: 7445374953302670408}
   - component: {fileID: 7829814576178205936}
   - component: {fileID: 2433215029364585585}
-  - component: {fileID: 7676912435280047408}
+  - component: {fileID: 3795084717432582161}
   - component: {fileID: 8274470964419024124}
   m_Layer: 0
   m_Name: Ext_Door_01
@@ -7114,7 +7114,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7676912435280047408
+--- !u!114 &3795084717432582161
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7123,10 +7123,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2310716380352831568}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b5e0617227fa4743be84f23d9e5cb42, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e8192f35a44301488ec0f072d9a16fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openandclose1: {fileID: 2433215029364585585}
+  openandclose: {fileID: 2433215029364585585}
   open: 0
   Player: {fileID: 0}
 --- !u!65 &8274470964419024124
