@@ -9,8 +9,15 @@ public class Controller : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
+{
+    if (agent == null)
     {
-        // 게임 시작 시 (0, 0, 0) 위치로 이동 설정
-        agent.SetDestination(new Vector3(0, 0, 0));
+        Debug.LogError("NavMeshAgent component is not attached to " + gameObject.name);
+        return;
     }
+
+    // 게임 시작 시 (42, 1, 394) 위치로 이동 설정
+    agent.SetDestination(new Vector3(2, 7, 0));
+    // agent.SetDestination(new Vector3(43, 1, 380));
+}
 }
