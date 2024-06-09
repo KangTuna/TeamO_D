@@ -18,7 +18,7 @@ public class SPManager : MonoBehaviour
     void Update()
     {
         // 120초마다 SP를 40 감소
-        if (Time.time - lastReductionTime >= 3f)
+        if (Time.time - lastReductionTime >= 120f)
         {
             SP -= 40;
             UpdateSPText();
