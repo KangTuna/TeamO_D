@@ -1,0 +1,6 @@
+***.exe filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+/Assets/Brick rock_Vol_1/Textures/T_Wall_brick_5_height_8k.tga filter=lfs diff=lfs merge=lfs -text
+/Assets/Brick rock_Vol_1/Textures/T_Wall_Brick_5_Wall_Brick_5_Albedo.tga filter=lfs diff=lfs merge=lfs -text
+/Assets/Brick rock_Vol_1/Textures/T_Wall_Brick_5_Wall_Brick_5_Normal.tga filter=lfs diff=lfs merge=lfs -text
